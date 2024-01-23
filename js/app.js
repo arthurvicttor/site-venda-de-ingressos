@@ -35,7 +35,7 @@ function comprar(){
         let qtdSuperior = parseInt(document.getElementById('qtd-superior').textContent);
 
         if (quantidade > qtdSuperior) {
-            alert('Quantidade indisponivel para o tipo Superior');
+            alert('Quantidade indisponivel para o tipo cadeira Superior');
         } else {
             qtdSuperior = qtdSuperior - quantidade;
             document.getElementById('qtd-superior').textContent = qtdSuperior;
